@@ -1,14 +1,14 @@
 import Navbar from "../components/navbar";
 import FilterParts from "../components/filterParts";
 import Footer from "../components/footer";
-import Post from "../components/post";
+import AllPosts from "../components/allPosts";
 
 export default function Home() {
   return (
     <div>
       <Navbar />
       <FilterParts />
-      <Post />
+      <AllPosts />
       <Footer />
     </div>
   );
